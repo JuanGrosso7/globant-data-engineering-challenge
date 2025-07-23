@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from .database import engine, Base
 from .models import Department, Job, Employee
-from .routers import csv_router
+from .routers import csv_router, metrics_router
 
 Base.metadata.create_all(bind=engine)
 
