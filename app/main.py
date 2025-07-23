@@ -8,7 +8,7 @@ Base.metadata.create_all(bind=engine)
 app = FastAPI()
 
 app.include_router(csv_router.router)
-
+app.include_router(metrics_router.router)
 
 @app.get("/")
 async def root():
