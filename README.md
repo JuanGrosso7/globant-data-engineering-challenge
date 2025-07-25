@@ -10,6 +10,7 @@ The project implements:
     - Dockerized deployment to a cloud provider.
 
 **Technical Stack & Architecture**
+
     *Stack:*
     - Language: Python 3.11
     - Web Framework: FastAPI
@@ -18,28 +19,31 @@ The project implements:
     - Testing: pytest
     - Containerization: Docker
     - Deployment Platform: Render.com
-    *Structure:*
-        globant-challenge/
-        ├── app/
-        │   ├── database.py
-        │   ├── main.py
-        │   ├── models.py
-        │   └── routers/
-        │       ├── csv_router.py
-        │       └── metrics_router.py
-        ├── tests/
-        │   └── test_main.py
-        ├── requirements.txt
-        ├── Dockerfile
-        └── README.md
+    
+*Structure:*
+    globant-challenge/
+    ├── app/
+    │ ├── database.py
+    │ ├── main.py
+    │ ├── models.py
+    │ └── routers/
+    │ ├── csv_router.py
+    │ └── metrics_router.py
+    ├── tests/
+    │ └── test_main.py
+    ├── requirements.txt
+    ├── Dockerfile
+    └── README.md
 
 **Database Schema**
+
 *Tables:*
     - Employees (employee details)
     - Departments (department details)
     - Jobs (job details)
 
 **REST API**
+
 *CSV Upload:*
     - POST /upload/departments/
     - POST /upload/jobs/
@@ -50,6 +54,7 @@ The project implements:
     - GET /metrics/departments_above_average/ (departments above average hires)
 
 **Automated Testing**
+
 Tests are implemented using pytest to ensure the correctness of API endpoints.
 
 *Run tests:* 
