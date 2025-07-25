@@ -22,21 +22,22 @@ The project implements:
     
 *Structure:*
 
-'''
-    globant-challenge/
-    ├── app/
-    │ ├── database.py
-    │ ├── main.py
-    │ ├── models.py
-    │ └── routers/
-    │ ├── csv_router.py
-    │ └── metrics_router.py
-    ├── tests/
-    │ └── test_main.py
-    ├── requirements.txt
-    ├── Dockerfile
-    └── README.md
-'''
+```
+globant-challenge/
+├── app/
+│   ├── database.py
+│   ├── main.py
+│   ├── models.py
+│   └── routers/
+│       ├── csv_router.py
+│       └── metrics_router.py
+├── tests/
+│   └── test_main.py
+├── requirements.txt
+├── Dockerfile
+└── README.md
+```
+
 
 **Database Schema**
 
