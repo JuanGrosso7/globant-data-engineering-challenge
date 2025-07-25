@@ -21,6 +21,8 @@ The project implements:
     - Deployment Platform: Render.com
     
 *Structure:*
+
+'''
     globant-challenge/
     ├── app/
     │ ├── database.py
@@ -34,6 +36,7 @@ The project implements:
     ├── requirements.txt
     ├── Dockerfile
     └── README.md
+'''
 
 **Database Schema**
 
